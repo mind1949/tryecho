@@ -1,6 +1,6 @@
 servername := iserver
 hostname := localhost:1323
-sid := mind1949
+sid := else1561172677501-M_crt7Bzr1mMZRF3RWfzrVrlZBce0gnV 
 
 serve:
 	go run $(servername)

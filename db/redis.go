@@ -8,7 +8,7 @@ import (
 var RedisClient *redis.Client
 
 const (
-	redisAddr     = "localhost:6379"
+	redisAddr     = "192.168.1.121:6379"
 	redisPassword = ""
 	redisDB       = 1
 	SidKey        = "else.sid"
