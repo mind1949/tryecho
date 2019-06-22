@@ -9,7 +9,9 @@ import (
 
 func validateSession(next echo.HandlerFunc) echo.HandlerFunc {
 	return func(c echo.Context) error {
-		sidCookie, err := c.Cookie(db.SidKey)
+		sidKey := "else.sid"
+
+		sidCookie, err := c.Cookie(sidKey)
 		if err != nil {
 			return c.JSON(http.StatusForbidden, "no session id in cookie !")
 		}

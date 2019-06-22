@@ -11,7 +11,6 @@ const (
 	redisAddr     = "localhost:6379"
 	redisPassword = ""
 	redisDB       = 1
-	SidKey        = "else.sid"
 )
 
 func init() {
